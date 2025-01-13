@@ -1,0 +1,9 @@
+requests==2.31.0
+boto3==1.28.45
+google-auth==2.23.4
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==1.0.0
+azure-identity==1.13.0
+azure-mgmt-compute==30.1.0
+oci==2.104.0
+python-dotenv==1.0.0
