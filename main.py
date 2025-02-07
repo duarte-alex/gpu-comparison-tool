@@ -14,6 +14,15 @@ load_dotenv()
 GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
 GCP_SERVICE_ACCOUNT_FILE = os.getenv("GCP_SERVICE_ACCOUNT_FILE")
 
+ZONES_AWS = [
+    "us-east-2", "us-east-1", "us-west-1", "us-west-2",
+    "af-south-1", "ap-east-1", "ap-south-2", "ap-southeast-3",
+    "ap-southeast-5", "ap-southeast-4", "ap-south-1",
+    "ap-northeast-3", "ap-northeast-2", "ap-southeast-1",
+    "ap-southeast-2", "ap-southeast-7", "ap-northeast-1",
+    "ca-central-1", "ca-west-1", "eu-central-1"
+]
+
 ZONES_GCP = [
     "us-central1-a", "us-central1-b", "us-central1-c", "us-central1-f",
 
