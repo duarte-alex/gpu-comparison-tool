@@ -18,6 +18,7 @@ class GoogleCloudProvider(CloudProvider):
         credentials.refresh(Request())
         return credentials.token
 
+
     def fetch_gpu_available(self, zones):
         all_available_gpus = []
 
@@ -28,28 +29,82 @@ class GoogleCloudProvider(CloudProvider):
             headers = {"Authorization": f"Bearer {self.oauth_token()}"}
             response = requests.get(url, headers=headers)
 
+            if response.json().get("nextPageToken") != None:
+                print("Page Token is needed for available GPUs")
+
             if response.status_code == 200:
                 gpus_available = response.json().get("items", [])
                 for gpu in gpus_available:
-                    if "NVIDIA" in gpu["description"]:
+                    gpu_info = gpu["description"]
+                    if "NVIDIA" in gpu_info and "Workstation" not in gpu_info:
                         all_available_gpus.append({
                             "Zone": zone,
-                            "Description": gpu["description"]})
+                            "Description": gpu_info})
             else:
                 print(f"Error fetching GPUs for zone {zone}:")
                 print(f"{response.status_code} \n {response.json()}")
                 return []
 
         return all_available_gpus
+    
+
+    def preprocess_gpu(self, data):
+        def preprocess_description(description):
+            gpu_name, location = description, "Unknown" 
+            if "running in" in description:
+                parts = description.split("running in")
+            else:
+                parts = description.split("in")
+
+            gpu_name = parts[0].strip()
+            location = parts[1].strip()
+            if "for" in location:
+                parts = location.split("for")
+                location = parts[0].strip()      
+        
+            return gpu_name, location
+
+        return [
+            {
+                "GPU": preprocess_description(sku["description"])[0],
+                "Location": preprocess_description(sku["description"])[1],
+                "Type": sku["category"].get("usageType", []),
+                "Region(s)": ", ".join(sku.get("serviceRegions", [])),
+                "Price (USD/hour)": sum([
+                    float(pricing.get("unitPrice", {}).get("units", 0)) +
+                    pricing.get("unitPrice", {}).get("nanos", 0) / 1e9
+                    for pricing in sku.get("pricingInfo", [])[0].get("pricingExpression", {}).get("tieredRates", [])
+                ])
+            }
+            for sku in data.get("skus", [])
+            if sku.get("category", {}).get("resourceGroup", "") == "GPU"
+        ]
+
 
     def fetch_gpu_pricing(self):
-        """Query and preprocess GPUs pricing data"""
-        pass
+        url = "https://cloudbilling.googleapis.com/v1/services/6F81-5844-456A/skus"
+        headers = {"Authorization": f"Bearer {self.oauth_token}"}
+        skus = []
+        next_page_token = None
+
+        while True:
+            params = {}
+            if next_page_token:
+                params["pageToken"] = next_page_token
+
+            response = requests.get(url, headers=headers, params=params)
+            if response.status_code == 200:
+                data = response.json()
+                skus.extend(self.preprocess_gpu(data))
+                next_page_token = data.get("nextPageToken")
+                if not next_page_token:
+                    break
+            else:
+                print(f"Error: {response.status_code} \n {response.json()}")
+                break
+
+        return skus
 
     def fetch_gpu(self):
         """Agregate available gpus with their pricing data"""
-        pass
-
-    def preprocess_gpu(self):
-        """Helper method for preprocessing gpu data"""
         pass

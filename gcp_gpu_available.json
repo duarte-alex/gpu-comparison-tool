@@ -17,10 +17,6 @@
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-a",
         "Description": "NVIDIA A100 40GB"
     },
     {
@@ -29,15 +25,7 @@
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-central1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-central1-a",
@@ -57,19 +45,11 @@
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-b",
         "Description": "NVIDIA A100 40GB"
     },
     {
         "Zone": "us-central1-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-central1-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-central1-b",
@@ -93,19 +73,11 @@
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-c",
         "Description": "NVIDIA A100 40GB"
     },
     {
         "Zone": "us-central1-c",
         "Description": "NVIDIA Tesla P100"
-    },
-    {
-        "Zone": "us-central1-c",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
     },
     {
         "Zone": "us-central1-c",
@@ -113,15 +85,7 @@
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-central1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-central1-c",
@@ -137,15 +101,7 @@
     },
     {
         "Zone": "us-central1-f",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "us-central1-f",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-central1-f",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-central1-f",
@@ -154,10 +110,6 @@
     {
         "Zone": "us-east1-b",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "us-east1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "us-east1-b",
@@ -168,16 +120,8 @@
         "Description": "NVIDIA Tesla P100"
     },
     {
-        "Zone": "us-east1-b",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
         "Zone": "us-east1-c",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "us-east1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "us-east1-c",
@@ -185,15 +129,7 @@
     },
     {
         "Zone": "us-east1-c",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east1-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-east1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-east1-c",
@@ -205,15 +141,7 @@
     },
     {
         "Zone": "us-east1-d",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east1-d",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-east1-d",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-east4-a",
@@ -229,23 +157,11 @@
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east4-a",
         "Description": "NVIDIA Tesla P4"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east4-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-east4-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-east4-b",
@@ -261,15 +177,7 @@
     },
     {
         "Zone": "us-east4-b",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east4-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-east4-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-east4-c",
@@ -289,23 +197,11 @@
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east4-c",
         "Description": "NVIDIA Tesla P4"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-east4-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-east4-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west1-a",
@@ -321,23 +217,11 @@
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west1-a",
         "Description": "NVIDIA Tesla P100"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west1-a",
@@ -357,10 +241,6 @@
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west1-b",
         "Description": "NVIDIA A100 40GB"
     },
     {
@@ -369,15 +249,7 @@
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west1-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west1-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west1-b",
@@ -389,15 +261,7 @@
     },
     {
         "Zone": "us-west2-b",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west2-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west2-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west2-c",
@@ -405,15 +269,7 @@
     },
     {
         "Zone": "us-west2-c",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west2-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west2-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west4-a",
@@ -429,15 +285,7 @@
     },
     {
         "Zone": "us-west4-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "us-west4-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west4-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "us-west4-b",
@@ -446,10 +294,6 @@
     {
         "Zone": "us-west4-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "us-west4-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west1-b",
@@ -469,23 +313,11 @@
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west1-b",
         "Description": "NVIDIA Tesla P100"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west1-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west1-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west1-c",
@@ -501,15 +333,7 @@
     },
     {
         "Zone": "europe-west1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west1-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west1-d",
@@ -517,15 +341,7 @@
     },
     {
         "Zone": "europe-west1-d",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west1-d",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west1-d",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west2-a",
@@ -533,15 +349,7 @@
     },
     {
         "Zone": "europe-west2-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west2-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west2-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west2-b",
@@ -557,15 +365,7 @@
     },
     {
         "Zone": "europe-west2-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west2-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west2-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west3-b",
@@ -573,15 +373,7 @@
     },
     {
         "Zone": "europe-west3-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west3-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west3-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west4-a",
@@ -593,10 +385,6 @@
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west4-a",
         "Description": "NVIDIA A100 40GB"
     },
     {
@@ -605,15 +393,7 @@
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west4-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west4-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west4-a",
@@ -630,10 +410,6 @@
     {
         "Zone": "europe-west4-b",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "europe-west4-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "europe-west4-b",
@@ -645,15 +421,7 @@
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west4-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west4-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west4-b",
@@ -673,23 +441,11 @@
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west4-c",
         "Description": "NVIDIA Tesla P4"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "europe-west4-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "europe-west4-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "europe-west4-c",
@@ -700,16 +456,8 @@
         "Description": "NVIDIA L4"
     },
     {
-        "Zone": "europe-west6-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-east1-a",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "asia-east1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "asia-east1-a",
@@ -717,31 +465,15 @@
     },
     {
         "Zone": "asia-east1-a",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-east1-a",
         "Description": "NVIDIA T4"
     },
     {
-        "Zone": "asia-east1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-east1-b",
         "Description": "NVIDIA L4"
     },
     {
-        "Zone": "asia-east1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-east1-c",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "asia-east1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "asia-east1-c",
@@ -749,27 +481,23 @@
     },
     {
         "Zone": "asia-east1-c",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-east1-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-east1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-east1-c",
         "Description": "NVIDIA V100"
     },
     {
-        "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA L4"
+        "Zone": "asia-east2-a",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "asia-east2-c",
+        "Description": "NVIDIA T4"
     },
     {
         "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
+        "Description": "NVIDIA L4"
     },
     {
         "Zone": "asia-northeast1-a",
@@ -778,10 +506,6 @@
     {
         "Zone": "asia-northeast1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-northeast1-b",
@@ -796,16 +520,8 @@
         "Description": "NVIDIA L4"
     },
     {
-        "Zone": "asia-northeast1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-northeast1-c",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "asia-northeast1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "asia-northeast1-c",
@@ -814,10 +530,6 @@
     {
         "Zone": "asia-northeast1-c",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-northeast1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-northeast3-a",
@@ -830,10 +542,6 @@
     {
         "Zone": "asia-northeast3-a",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "asia-northeast3-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "asia-northeast3-a",
@@ -845,10 +553,6 @@
     },
     {
         "Zone": "asia-northeast3-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-northeast3-b",
         "Description": "NVIDIA A100 40GB"
     },
     {
@@ -856,10 +560,6 @@
         "Description": "NVIDIA T4"
     },
     {
-        "Zone": "asia-northeast3-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-northeast3-c",
         "Description": "NVIDIA H100 80GB"
     },
@@ -872,24 +572,12 @@
         "Description": "NVIDIA T4"
     },
     {
-        "Zone": "asia-northeast3-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-south1-a",
         "Description": "NVIDIA L4"
     },
     {
         "Zone": "asia-south1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-south1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-south1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-south1-b",
@@ -897,15 +585,7 @@
     },
     {
         "Zone": "asia-south1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-south1-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-south1-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-south1-c",
@@ -920,24 +600,12 @@
         "Description": "NVIDIA L4"
     },
     {
-        "Zone": "asia-south1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
         "Zone": "asia-southeast1-a",
         "Description": "NVIDIA L4"
     },
     {
         "Zone": "asia-southeast1-a",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-southeast1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-southeast1-b",
@@ -950,10 +618,6 @@
     {
         "Zone": "asia-southeast1-b",
         "Description": "NVIDIA L4"
-    },
-    {
-        "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA L4 Virtual Workstation"
     },
     {
         "Zone": "asia-southeast1-b",
@@ -965,15 +629,7 @@
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast1-b",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "asia-southeast1-c",
@@ -993,10 +649,6 @@
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA L4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast1-c",
         "Description": "NVIDIA A100 40GB"
     },
     {
@@ -1005,31 +657,15 @@
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast2-a",
         "Description": "NVIDIA T4"
     },
     {
         "Zone": "asia-southeast2-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
-        "Zone": "asia-southeast2-b",
         "Description": "NVIDIA T4"
     },
     {
         "Zone": "asia-southeast2-b",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
+        "Description": "NVIDIA T4"
     },
     {
         "Zone": "australia-southeast1-a",
@@ -1037,15 +673,7 @@
     },
     {
         "Zone": "australia-southeast1-a",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
-    },
-    {
-        "Zone": "australia-southeast1-a",
         "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "australia-southeast1-a",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
     },
     {
         "Zone": "australia-southeast1-b",
@@ -1053,15 +681,7 @@
     },
     {
         "Zone": "australia-southeast1-b",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "australia-southeast1-b",
         "Description": "NVIDIA Tesla P4"
-    },
-    {
-        "Zone": "australia-southeast1-b",
-        "Description": "NVIDIA Tesla P4 Virtual Workstation"
     },
     {
         "Zone": "australia-southeast1-c",
@@ -1073,22 +693,10 @@
     },
     {
         "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA Tesla P100 Virtual Workstation"
-    },
-    {
-        "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA T4"
-    },
-    {
-        "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
-    },
-    {
-        "Zone": "southamerica-east1-c",
         "Description": "NVIDIA T4"
     },
     {
         "Zone": "southamerica-east1-c",
-        "Description": "NVIDIA Tesla T4 Virtual Workstation"
+        "Description": "NVIDIA T4"
     }
 ]
