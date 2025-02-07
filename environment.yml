@@ -13,6 +13,6 @@ dependencies:
   - azure-mgmt-compute
   - oci
   - pip
+  - flake8
   - pip:
     - python-dotenv==1.0.0
-    - -r requirements.txt

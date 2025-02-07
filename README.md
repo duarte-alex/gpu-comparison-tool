@@ -1,12 +1,14 @@
 # gpu-comparison-tool
 
-Multi-cloud GPU comparison tool that is transparent, modular and environmentally conscious.
+Multi-cloud GPU comparison tool that is transparent, modular, environmentally conscious and energy aware.
 
 ## Overview
 
-The GPU Comparison Tool simplifies the process of comparing GPU options available from popular cloud providers. It gathers information about GPU availability, pricing, and specifications, allowing developers and researchers to choose the best options for their workloads.
+The gpu-comparison-tool brings together information from different cloud providers and aggreates different metrics.
 
-## Install 
+## Installation tutorial
+
+## Environment set up
 
 ## Set up credentials
 
