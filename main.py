@@ -166,6 +166,7 @@ GCP = GoogleCloudProvider(GCP_PROJECT_ID, GCP_SERVICE_ACCOUNT_FILE)
 AWS = AWSCloudProvider(ZONES_AWS)
 
 # fetch available GPUs and their prices
+aws_gpu_available = AWS.fetch_gpu_available()
 gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
 gcp_gpu_pricing = GCP.fetch_gpu_pricing()
 save_to_json("jsons/gcp_gpu_pricing.json", gcp_gpu_pricing)
@@ -185,8 +186,9 @@ for gpu in gcp_gpu_available:
         gpu["Price (USD/hour)"] = 999
 
 save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
+save_to_json("jsons/aws_gpu_available.json", aws_gpu_available)
 
-#aws_gpu_available = AWS.fetch_gpu_available()
+
 #for gpu in aws_gpu_available:
 #    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
 #    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
