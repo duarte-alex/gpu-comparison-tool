@@ -38,7 +38,7 @@ class GoogleCloudProvider(CloudProvider):
                     if "NVIDIA" in gpu_info and "Workstation" not in gpu_info:
                         all_available_gpus.append({
                             "Zone": zone,
-                            "Description": gpu_info})
+                            "Description": gpu_info.lower()})
             else:
                 print(f"Error fetching GPUs for zone {zone}:")
                 print(f"{response.status_code} \n {response.json()}")
@@ -54,27 +54,42 @@ class GoogleCloudProvider(CloudProvider):
             else:
                 parts = description.split("in")
 
-            gpu_name = parts[0].strip()
-            location = parts[1].strip()
-            if "for" in location:
-                parts = location.split("for")
-                location = parts[0].strip()      
-        
-            return gpu_name, location
+            gpu_name = parts[0].strip().lower()[:-4]  
+            if gpu_name == "nvidia tesla a100":
+                gpu_name = "nvidia a100 40gb"
+            elif gpu_name == "nvidia tesla v100":
+                gpu_name = "nvidia v100"
+            elif gpu_name == "h200 141gb":
+                gpu_name = "nvidia h200 141gb"
+
+            return gpu_name
 
         return [
             {
-                "GPU": preprocess_description(sku["description"])[0],
+                "GPU": preprocess_description(sku["description"]),
                 "Region(s)": ", ".join(sku.get("serviceRegions", [])),
-                "Price (USD/hour)": sum([
-                    float(pricing.get("unitPrice", {}).get("units", 0)) +
-                    pricing.get("unitPrice", {}).get("nanos", 0) / 1e9
-                    for pricing in sku.get("pricingInfo", [])[0].get("pricingExpression", {}).get("tieredRates", [])
-                ])
+                "Price (USD/hour)": (
+                    float(
+                        sku.get("pricingInfo", [])[0]
+                        .get("pricingExpression", {})
+                        .get("tieredRates", [])[0]
+                        .get("unitPrice", {})
+                        .get("units", 0)
+                    )
+                    +
+                    sku.get("pricingInfo", [])[0]
+                    .get("pricingExpression", {})
+                    .get("tieredRates", [])[0]
+                    .get("unitPrice", {})
+                    .get("nanos", 0) / 1e9
+                )
             }
             for sku in data.get("skus", [])
-            if sku.get("category", {}).get("resourceGroup", "") == "GPU" and sku["category"].get("usageType", []) == "OnDemand"
+            if sku.get("category", {}).get("resourceGroup", "") == "GPU"
+            and sku["category"].get("usageType", []) == "OnDemand"
+            and "Reserved" not in sku["description"]
         ]
+
 
 
     def fetch_gpu_pricing(self):

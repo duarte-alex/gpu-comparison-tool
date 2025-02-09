@@ -1,1232 +1,822 @@
 [
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-central1-a",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-central1-b",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-central1-c",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-central1-f",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-central1-f",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-central1-f",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-central1-f",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 430,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-east1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-east1-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-east1-b",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-east1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-east1-c",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-east1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-east1-c",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-east1-d",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-east1-d",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 560,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-east4-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-east4-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-east4-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-east4-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-east4-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-east4-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-east5-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-east5-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-east5-a",
-        "Description": "NVIDIA H200 141GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 48.57
+        "Description": "nvidia h200 141gb"
     },
     {
         "Zone": "us-east5-b",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 322,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west1-a",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west1-b",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "us-west1-c",
-        "Description": "NVIDIA H200 141GB",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 48.57
+        "Description": "nvidia h200 141gb"
     },
     {
         "Zone": "us-west1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 94,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-west2-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 198,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-west2-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 198,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west2-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 198,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "us-west2-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 198,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west3-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 588,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-west3-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 588,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west4-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "us-west4-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "us-west4-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "us-west4-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west4-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "us-west4-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "us-west4-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 373,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "northamerica-northeast1-a",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 2,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "northamerica-northeast1-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 2,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "northamerica-northeast1-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 2,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "northamerica-northeast1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 2,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "northamerica-northeast2-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 47,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "northamerica-northeast2-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 47,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "northamerica-northeast2-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 47,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-central2-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 723,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-central2-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 723,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA H200 141GB",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 48.57
+        "Description": "nvidia h200 141gb"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "europe-west1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west1-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west1-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west1-d",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "europe-west1-d",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 122,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west2-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west2-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west2-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west2-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west2-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west2-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 136,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west3-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west3-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west3-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west3-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west3-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west3-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west3-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 345,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west4-a",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west4-b",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "europe-west4-c",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 236,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "europe-west6-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 59,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "europe-west6-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 59,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-east1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-east1-a",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "asia-east1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-east1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-east1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-east1-c",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "asia-east1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-east1-c",
-        "Description": "NVIDIA V100",
-        "Carbon intensity (gCO2eq/kWh)": 451,
-        "Energy Efficiency [GFlops/Watts]": 26
+        "Description": "nvidia v100"
     },
     {
         "Zone": "asia-east2-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 360,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-east2-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 360,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-northeast1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-northeast1-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-northeast1-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-northeast1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-northeast1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-northeast1-c",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-northeast1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 459,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-northeast3-a",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-northeast3-a",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-northeast3-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-northeast3-a",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-northeast3-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-northeast3-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-northeast3-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-northeast3-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-northeast3-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-northeast3-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 378,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-south1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-south1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-south1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-south1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-south1-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-south1-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-south1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 648,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-southeast1-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-southeast1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "asia-southeast1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA A100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 48.8
+        "Description": "nvidia a100 80gb"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "asia-southeast1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 369,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-southeast2-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 580,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "asia-southeast2-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 580,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "australia-southeast1-a",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "australia-southeast1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "australia-southeast1-b",
-        "Description": "NVIDIA Tesla P100",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 15.7
+        "Description": "nvidia tesla p100"
     },
     {
         "Zone": "australia-southeast1-b",
-        "Description": "NVIDIA Tesla P4",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 73.3
+        "Description": "nvidia tesla p4"
     },
     {
         "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA H100 80GB",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb"
     },
     {
         "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA H100 80GB MEGA",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 85.7
+        "Description": "nvidia h100 80gb mega"
     },
     {
         "Zone": "australia-southeast1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 501,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "southamerica-east1-a",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 56,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "southamerica-east1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 56,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "me-central2-a",
-        "Description": "NVIDIA L4",
-        "Carbon intensity (gCO2eq/kWh)": 569,
-        "Energy Efficiency [GFlops/Watts]": 210
+        "Description": "nvidia l4"
     },
     {
         "Zone": "me-west1-b",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 463,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "me-west1-b",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 463,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     },
     {
         "Zone": "me-west1-c",
-        "Description": "NVIDIA A100 40GB",
-        "Carbon intensity (gCO2eq/kWh)": 463,
-        "Energy Efficiency [GFlops/Watts]": 38.8
+        "Description": "nvidia a100 40gb"
     },
     {
         "Zone": "me-west1-c",
-        "Description": "NVIDIA T4",
-        "Carbon intensity (gCO2eq/kWh)": 463,
-        "Energy Efficiency [GFlops/Watts]": 116
+        "Description": "nvidia t4"
     }
 ]

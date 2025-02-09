@@ -143,11 +143,11 @@ GCP_intensity = {
 }
 
 GPU_efficiency = {
-    "NVIDIA Tesla P100": 15.7, "NVIDIA V100": 26, 
-    "NVIDIA A100 40GB": 38.8, "NVIDIA A100 80GB": 48.8, 
-    "NVIDIA H100 80GB": 85.7, "NVIDIA H100 80GB MEGA": 85.7,
-    "NVIDIA T4": 116, "NVIDIA L4": 210, "NVIDIA Tesla P4": 73.3,
-    "NVIDIA H200 141GB": 48.57
+    "nvidia tesla p100": 15.7, "nvidia v100": 26, 
+    "nvidia a100 40gb": 38.8, "nvidia a100 80gb": 48.8, 
+    "nvidia h100 80gb": 85.7, "nvidia h100 80gb mega": 85.7,
+    "nvidia t4": 116, "nvidia l4": 210, "nvidia tesla p4": 73.3,
+    "nvidia h200 141gb": 48.57
 }
 
 
@@ -166,17 +166,18 @@ GCP = GoogleCloudProvider(GCP_PROJECT_ID, GCP_SERVICE_ACCOUNT_FILE)
 AWS = AWSCloudProvider(ZONES_AWS)
 
 # fetch available GPUs
-gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
+# gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
 gcp_gpu_pricing = GCP.fetch_gpu_pricing()
-save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_pricing)
+save_to_json("jsons/gcp_gpu_pricing.json", gcp_gpu_pricing)
+# save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
 
-for gpu in gcp_gpu_available:
-    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
-    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
-    gpu["Zone"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]]
+
+#for gpu in gcp_gpu_available:
+#    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
+#    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
+#    gpu["Zone"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]]
     # gpu["Price (USD/hour)"] = gcp_gpu_pricing[(Zone, Description)]
 
-save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
 
 #aws_gpu_available = AWS.fetch_gpu_available()
 #for gpu in aws_gpu_available:
