@@ -1,3 +1,911 @@
 [
     {
-        
+        "nvidia tesla p100|asia-northeast3": 1.6
+    },
+    {
+        "nvidia h100 80gb mega|australia-southeast1": 12.93034
+    },
+    {
+        "nvidia l4|asia-southeast1": 0.6909216
+    },
+    {
+        "nvidia t4|asia-northeast1": 0.37
+    },
+    {
+        "nvidia a100 40gb|us-central1": 2.9339079999999997
+    },
+    {
+        "nvidia a100 40gb|us-east1": 2.9339079999999997
+    },
+    {
+        "nvidia a100 40gb|us-west1": 2.9339079999999997
+    },
+    {
+        "nvidia tesla p100|us-west3": 1.752
+    },
+    {
+        "nvidia v100|europe-west4": 2.55
+    },
+    {
+        "nvidia h100 80gb|southamerica-east1": 15.55594
+    },
+    {
+        "nvidia l4|southamerica-east1": 0.8892879
+    },
+    {
+        "nvidia h100 80gb|europe-west12": 12.63755
+    },
+    {
+        "nvidia tesla p4|asia-northeast3": 0.65
+    },
+    {
+        "nvidia h100 80gb|europe-west4": 12.735516
+    },
+    {
+        "nvidia tesla p4|europe-west12": 0.774
+    },
+    {
+        "nvidia a100 40gb|europe-southwest1": 3.462011
+    },
+    {
+        "nvidia v100|me-west1": 2.7279999999999998
+    },
+    {
+        "nvidia h100 80gb|us-east4": 9.796551000000001
+    },
+    {
+        "nvidia tesla p100|europe-southwest1": 1.7227999999999999
+    },
+    {
+        "nvidia a100 80gb|us-west4": 4.424197
+    },
+    {
+        "nvidia t4|australia-southeast2": 0.497
+    },
+    {
+        "nvidia tesla p4|europe-west6": 0.84
+    },
+    {
+        "nvidia tesla p100|us-east5": 1.46
+    },
+    {
+        "nvidia tesla p4|me-west1": 0.66
+    },
+    {
+        "nvidia a100 40gb|us-west2": 3.436863684
+    },
+    {
+        "nvidia a100 80gb|europe-west9": 4.556573
+    },
+    {
+        "nvidia h100 80gb|me-central2": 15.674479999999999
+    },
+    {
+        "nvidia v100|europe-west6": 3.472
+    },
+    {
+        "nvidia l4|europe-west9": 0.6496467
+    },
+    {
+        "nvidia tesla p4|us-west4": 0.6
+    },
+    {
+        "nvidia l4|europe-north1": 0.6166603
+    },
+    {
+        "nvidia l4|australia-southeast2": 0.727795936
+    },
+    {
+        "nvidia h100 80gb|us-west2": 11.77643
+    },
+    {
+        "nvidia a100 80gb|asia-southeast2": 5.282089
+    },
+    {
+        "nvidia v100|europe-west12": 3.1992
+    },
+    {
+        "nvidia tesla p100|us-west8": 1.46
+    },
+    {
+        "nvidia l4|us-west3": 0.6732244
+    },
+    {
+        "nvidia h100 80gb|europe-west8": 11.364
+    },
+    {
+        "nvidia v100|us-west4": 2.48
+    },
+    {
+        "nvidia h100 80gb|europe-west6": 13.70439
+    },
+    {
+        "nvidia l4|us-east5": 0.6307733
+    },
+    {
+        "nvidia a100 40gb|us-west8": 2.9339079999999997
+    },
+    {
+        "nvidia t4|australia-southeast1": 0.44
+    },
+    {
+        "nvidia a100 80gb|asia-southeast1": 4.846072
+    },
+    {
+        "nvidia h100 80gb|asia-southeast2": 13.17342
+    },
+    {
+        "nvidia a100 40gb|asia-south2": 3.5206896
+    },
+    {
+        "nvidia l4|us-east4": 0.55820646
+    },
+    {
+        "nvidia h100 80gb|asia-east2": 13.70439
+    },
+    {
+        "nvidia a100 80gb|me-central2": 6.284928
+    },
+    {
+        "nvidia a100 40gb|europe-west12": 3.784741
+    },
+    {
+        "nvidia a100 40gb|europe-west3": 3.436863684
+    },
+    {
+        "nvidia a100 40gb|us-west4": 3.101559926
+    },
+    {
+        "nvidia v100|europe-west9": 2.8768000000000002
+    },
+    {
+        "nvidia h100 80gb|europe-west3": 11.55993
+    },
+    {
+        "nvidia l4|me-west1": 0.6160443
+    },
+    {
+        "nvidia tesla p4|europe-west10": 0.924
+    },
+    {
+        "nvidia l4|asia-east2": 0.7834403
+    },
+    {
+        "nvidia a100 80gb|us-south1": 4.635134
+    },
+    {
+        "nvidia v100|us-west8": 2.48
+    },
+    {
+        "nvidia v100|europe-southwest1": 2.9264
+    },
+    {
+        "nvidia tesla p100|asia-east1": 1.6
+    },
+    {
+        "nvidia tesla p100|europe-west8": 1.6936
+    },
+    {
+        "nvidia t4|us-west4": 0.37
+    },
+    {
+        "nvidia a100 80gb|europe-west12": 5.067223
+    },
+    {
+        "nvidia t4|europe-west8": 0.406
+    },
+    {
+        "nvidia a100 80gb|asia-northeast1": 5.04444
+    },
+    {
+        "nvidia a100 40gb|australia-southeast1": 3.688341526
+    },
+    {
+        "nvidia t4|europe-west10": 0.539
+    },
+    {
+        "nvidia tesla p100|europe-west6": 2.044
+    },
+    {
+        "nvidia h200 141gb|europe-west1": 10.25316
+    },
+    {
+        "nvidia tesla p100|australia-southeast1": 1.6
+    },
+    {
+        "nvidia tesla p4|africa-south1": 0.7848
+    },
+    {
+        "nvidia t4|europe-west9": 0.406
+    },
+    {
+        "nvidia h100 80gb mega|europe-west4": 13.44756
+    },
+    {
+        "nvidia a100 40gb|me-west1": 3.227299
+    },
+    {
+        "nvidia t4|asia-south1": 0.41
+    },
+    {
+        "nvidia h100 80gb|europe-southwest1": 11.55993
+    },
+    {
+        "nvidia tesla p4|asia-northeast2": 0.65
+    },
+    {
+        "nvidia h100 80gb|asia-south1": 10.18841
+    },
+    {
+        "nvidia l4|southamerica-west1": 0.8008575
+    },
+    {
+        "nvidia l4|us-west2": 0.6732244
+    },
+    {
+        "nvidia v100|asia-southeast2": 0.0
+    },
+    {
+        "nvidia h100 80gb mega|us-east4": 10.34428
+    },
+    {
+        "nvidia v100|africa-south1": 3.24384
+    },
+    {
+        "nvidia a100 40gb|us-south1": 3.462011
+    },
+    {
+        "nvidia h100 80gb mega|asia-southeast1": 13.44756
+    },
+    {
+        "nvidia tesla p4|us-west8": 0.6
+    },
+    {
+        "nvidia t4|me-central2": 0.56
+    },
+    {
+        "nvidia l4|us-south1": 0.6608475
+    },
+    {
+        "nvidia t4|africa-south1": 0.4578
+    },
+    {
+        "nvidia t4|asia-southeast2": 0.4033
+    },
+    {
+        "nvidia a100 80gb|asia-northeast3": 5.04444
+    },
+    {
+        "nvidia l4|asia-southeast2": 0.7530861
+    },
+    {
+        "nvidia h100 80gb|europe-north1": 10.78698
+    },
+    {
+        "nvidia a100 40gb|europe-west1": 2.9339079999999997
+    },
+    {
+        "nvidia h100 80gb|europe-west10": 15.08669
+    },
+    {
+        "nvidia tesla p4|asia-south2": 0.72
+    },
+    {
+        "nvidia a100 40gb|us-east4": 3.101559926
+    },
+    {
+        "nvidia a100 80gb|northamerica-northeast2": 4.325209
+    },
+    {
+        "nvidia tesla p4|southamerica-west1": 0.858
+    },
+    {
+        "nvidia l4|europe-west12": 0.7224519
+    },
+    {
+        "nvidia t4|asia-southeast1": 0.37
+    },
+    {
+        "nvidia t4|me-central1": 0.42525
+    },
+    {
+        "nvidia a100 80gb|europe-west2": 5.060938
+    },
+    {
+        "nvidia l4|northamerica-northeast1": 0.6166603
+    },
+    {
+        "nvidia a100 80gb|asia-northeast2": 5.04444
+    },
+    {
+        "nvidia a100 80gb|europe-west1": 4.325209
+    },
+    {
+        "nvidia tesla p100|europe-central2": 1.6
+    },
+    {
+        "nvidia a100 40gb|europe-west10": 4.518218
+    },
+    {
+        "nvidia h100 80gb|us-east5": 11.03385
+    },
+    {
+        "nvidia v100|us-west3": 2.976
+    },
+    {
+        "nvidia v100|europe-central2": 0.0
+    },
+    {
+        "nvidia t4|europe-central2": 0.41
+    },
+    {
+        "nvidia h100 80gb|africa-south1": 12.81389
+    },
+    {
+        "nvidia a100 40gb|us-west3": 3.436863684
+    },
+    {
+        "nvidia v100|us-east5": 2.48
+    },
+    {
+        "nvidia a100 40gb|europe-north1": 2.9339079999999997
+    },
+    {
+        "nvidia tesla p100|australia-southeast2": 2.0732
+    },
+    {
+        "nvidia v100|asia-south2": 0.0
+    },
+    {
+        "nvidia a100 80gb|asia-south1": 4.718017
+    },
+    {
+        "nvidia a100 80gb|us-west8": 3.92808
+    },
+    {
+        "nvidia a100 40gb|southamerica-east1": 4.023645284
+    },
+    {
+        "nvidia a100 80gb|asia-south2": 4.718017
+    },
+    {
+        "nvidia l4|australia-southeast1": 0.699803785
+    },
+    {
+        "nvidia a100 80gb|us-west2": 4.721945
+    },
+    {
+        "nvidia l4|us-west4": 0.6307733
+    },
+    {
+        "nvidia a100 40gb|africa-south1": 3.837552
+    },
+    {
+        "nvidia t4|europe-west1": 0.35
+    },
+    {
+        "nvidia h100 80gb|europe-central2": 12.62188
+    },
+    {
+        "nvidia tesla p4|asia-southeast2": 0.7085
+    },
+    {
+        "nvidia tesla p4|me-central2": 0.96
+    },
+    {
+        "nvidia h100 80gb|southamerica-west1": 14.00907
+    },
+    {
+        "nvidia t4|southamerica-east1": 0.48
+    },
+    {
+        "nvidia tesla p100|us-central1": 1.46
+    },
+    {
+        "nvidia tesla p100|us-west1": 1.46
+    },
+    {
+        "nvidia tesla p100|us-east1": 1.46
+    },
+    {
+        "nvidia tesla p4|europe-southwest1": 0.708
+    },
+    {
+        "nvidia a100 80gb|us-east5": 4.424197
+    },
+    {
+        "nvidia t4|us-west3": 0.41
+    },
+    {
+        "nvidia tesla p4|us-east4": 0.6
+    },
+    {
+        "nvidia h100 80gb|us-central1": 10.344275712
+    },
+    {
+        "nvidia h100 80gb|us-east1": 10.344275712
+    },
+    {
+        "nvidia h100 80gb|us-west1": 10.344275712
+    },
+    {
+        "nvidia a100 80gb|us-east4": 4.424197
+    },
+    {
+        "nvidia l4|europe-west2": 0.637653962
+    },
+    {
+        "nvidia h100 80gb|europe-west1": 10.78698
+    },
+    {
+        "nvidia tesla p100|asia-southeast2": 1.744
+    },
+    {
+        "nvidia a100 80gb|australia-southeast2": 5.57591
+    },
+    {
+        "nvidia a100 80gb|asia-east2": 5.494991
+    },
+    {
+        "nvidia t4|us-east5": 0.35
+    },
+    {
+        "nvidia t4|asia-northeast2": 0.37
+    },
+    {
+        "nvidia t4|us-west2": 0.41
+    },
+    {
+        "nvidia t4|asia-east1": 0.35
+    },
+    {
+        "nvidia t4|us-central1": 0.35
+    },
+    {
+        "nvidia t4|us-east1": 0.35
+    },
+    {
+        "nvidia t4|us-west1": 0.35
+    },
+    {
+        "nvidia tesla p4|northamerica-northeast1": 0.65
+    },
+    {
+        "nvidia l4|europe-west6": 0.7834403
+    },
+    {
+        "nvidia t4|us-east4": 0.37
+    },
+    {
+        "nvidia v100|asia-east1": 2.48
+    },
+    {
+        "nvidia a100 40gb|me-central2": 4.694253
+    },
+    {
+        "nvidia tesla p100|us-west4": 1.46
+    },
+    {
+        "nvidia a100 40gb|europe-west9": 3.403333
+    },
+    {
+        "nvidia a100 80gb|northamerica-northeast1": 4.325209
+    },
+    {
+        "nvidia l4|europe-west10": 0.862462
+    },
+    {
+        "nvidia h100 80gb|northamerica-northeast1": 10.78698
+    },
+    {
+        "nvidia h100 80gb|europe-west2": 11.16807
+    },
+    {
+        "nvidia v100|me-central1": 3.0132
+    },
+    {
+        "nvidia a100 40gb|me-central1": 3.564698
+    },
+    {
+        "nvidia t4|northamerica-northeast1": 0.385
+    },
+    {
+        "nvidia tesla p4|us-west2": 0.72
+    },
+    {
+        "nvidia l4|me-central1": 0.6804489
+    },
+    {
+        "nvidia h100 80gb|australia-southeast1": 12.24569
+    },
+    {
+        "nvidia t4|europe-west2": 0.41
+    },
+    {
+        "nvidia l4|europe-southwest1": 0.6608475
+    },
+    {
+        "nvidia tesla p4|us-east5": 0.6
+    },
+    {
+        "nvidia t4|europe-west3": 0.41
+    },
+    {
+        "nvidia tesla p100|me-west1": 1.6059999999999999
+    },
+    {
+        "nvidia h100 80gb|australia-southeast2": 12.73552
+    },
+    {
+        "nvidia tesla p4|us-central1": 0.6
+    },
+    {
+        "nvidia tesla p4|us-east1": 0.6
+    },
+    {
+        "nvidia tesla p4|us-west1": 0.6
+    },
+    {
+        "nvidia h100 80gb|asia-southeast1": 12.735516
+    },
+    {
+        "nvidia tesla p100|me-central1": 1.7739
+    },
+    {
+        "nvidia tesla p4|europe-west9": 0.696
+    },
+    {
+        "nvidia a100 80gb|australia-southeast1": 5.57591
+    },
+    {
+        "nvidia a100 80gb|us-west3": 4.721945
+    },
+    {
+        "nvidia l4|asia-south2": 0.6726643
+    },
+    {
+        "nvidia a100 80gb|europe-southwest1": 4.635134
+    },
+    {
+        "nvidia l4|us-central1": 0.560040239
+    },
+    {
+        "nvidia l4|us-east1": 0.560040239
+    },
+    {
+        "nvidia l4|us-west1": 0.560040239
+    },
+    {
+        "nvidia h100 80gb|europe-west9": 11.364
+    },
+    {
+        "nvidia a100 40gb|asia-northeast2": 3.101559926
+    },
+    {
+        "nvidia tesla p4|europe-west8": 0.696
+    },
+    {
+        "nvidia a100 80gb|europe-west4": 4.325209
+    },
+    {
+        "nvidia tesla p100|asia-south2": 1.75
+    },
+    {
+        "nvidia l4|asia-south1": 0.582975726
+    },
+    {
+        "nvidia l4|europe-west1": 0.6166603
+    },
+    {
+        "nvidia t4|us-south1": 0.413
+    },
+    {
+        "nvidia h100 80gb|asia-south2": 11.76664
+    },
+    {
+        "nvidia h100 80gb|me-west1": 10.77621
+    },
+    {
+        "nvidia v100|northamerica-northeast1": 0.0
+    },
+    {
+        "nvidia a100 40gb|southamerica-west1": 4.19548844
+    },
+    {
+        "nvidia t4|us-west8": 0.35
+    },
+    {
+        "nvidia a100 80gb|europe-north1": 4.325209
+    },
+    {
+        "nvidia a100 40gb|asia-southeast2": 3.380700262
+    },
+    {
+        "nvidia h100 80gb|northamerica-northeast2": 10.78698
+    },
+    {
+        "nvidia tesla p100|africa-south1": 1.90968
+    },
+    {
+        "nvidia a100 80gb|me-central1": 4.772617
+    },
+    {
+        "nvidia a100 80gb|me-west1": 4.320888
+    },
+    {
+        "nvidia l4|northamerica-northeast2": 0.6166603
+    },
+    {
+        "nvidia h100 80gb mega|us-west4": 11.65076
+    },
+    {
+        "nvidia tesla p100|me-central2": 2.336
+    },
+    {
+        "nvidia tesla p100|europe-west1": 1.6
+    },
+    {
+        "nvidia a100 80gb|europe-west10": 6.049243
+    },
+    {
+        "nvidia v100|asia-northeast3": 0.0
+    },
+    {
+        "nvidia h100 80gb|asia-northeast2": 12.580729999999999
+    },
+    {
+        "nvidia tesla p100|southamerica-west1": 2.0878
+    },
+    {
+        "nvidia a100 80gb|europe-west8": 4.556573
+    },
+    {
+        "nvidia a100 40gb|europe-west8": 3.403333
+    },
+    {
+        "nvidia v100|asia-northeast2": 0.0
+    },
+    {
+        "nvidia t4|asia-northeast3": 0.37
+    },
+    {
+        "nvidia a100 80gb|europe-central2": 5.060938
+    },
+    {
+        "nvidia a100 40gb|asia-east2": 3.688341526
+    },
+    {
+        "nvidia tesla p100|europe-west4": 1.6
+    },
+    {
+        "nvidia h100 80gb mega|us-east5": 10.34428
+    },
+    {
+        "nvidia t4|asia-south2": 0.42
+    },
+    {
+        "nvidia a100 80gb|southamerica-west1": 5.617154
+    },
+    {
+        "nvidia h100 80gb mega|europe-west1": 11.39008
+    },
+    {
+        "nvidia tesla p4|australia-southeast2": 0.852
+    },
+    {
+        "nvidia a100 40gb|asia-northeast1": 3.101559926
+    },
+    {
+        "nvidia l4|me-central2": 0.8960644
+    },
+    {
+        "nvidia h100 80gb|asia-northeast3": 12.580729999999999
+    },
+    {
+        "nvidia l4|europe-west8": 0.6496467
+    },
+    {
+        "nvidia l4|africa-south1": 0.7325326
+    },
+    {
+        "nvidia t4|europe-west6": 0.45
+    },
+    {
+        "nvidia a100 40gb|asia-southeast1": 3.101559926
+    },
+    {
+        "nvidia h100 80gb|me-central1": 11.90281
+    },
+    {
+        "nvidia h100 80gb|us-central1": 9.796550569
+    },
+    {
+        "nvidia h100 80gb|us-east1": 9.796550569
+    },
+    {
+        "nvidia h100 80gb|us-west1": 9.796550569
+    },
+    {
+        "nvidia a100 40gb|asia-northeast3": 3.101559926
+    },
+    {
+        "nvidia v100|europe-west10": 3.8192
+    },
+    {
+        "nvidia tesla p4|australia-southeast1": 0.65
+    },
+    {
+        "nvidia tesla p100|europe-west10": 2.2484
+    },
+    {
+        "nvidia v100|me-central2": 3.968
+    },
+    {
+        "nvidia l4|europe-west3": 0.660027786
+    },
+    {
+        "nvidia a100 40gb|europe-west2": 3.436863684
+    },
+    {
+        "nvidia a100 40gb|europe-central2": 3.436863684
+    },
+    {
+        "nvidia l4|asia-northeast3": 0.7192037
+    },
+    {
+        "nvidia a100 40gb|asia-east1": 2.9339079999999997
+    },
+    {
+        "nvidia tesla p4|europe-central2": 0.65
+    },
+    {
+        "nvidia v100|us-central1": 2.48
+    },
+    {
+        "nvidia v100|us-east1": 2.48
+    },
+    {
+        "nvidia v100|us-west1": 2.48
+    },
+    {
+        "nvidia a100 40gb|us-east5": 2.9339079999999997
+    },
+    {
+        "nvidia tesla p4|us-west3": 0.72
+    },
+    {
+        "nvidia a100 80gb|southamerica-east1": 6.237398
+    },
+    {
+        "nvidia v100|southamerica-west1": 3.5464
+    },
+    {
+        "nvidia t4|asia-east2": 0.44
+    },
+    {
+        "nvidia a100 80gb|africa-south1": 5.137929
+    },
+    {
+        "nvidia h100 80gb mega|europe-west3": 12.20625
+    },
+    {
+        "nvidia h100 80gb|us-west8": 9.796551000000001
+    },
+    {
+        "nvidia l4|europe-central2": 0.7215558
+    },
+    {
+        "nvidia a100 40gb|northamerica-northeast1": 3.101559926
+    },
+    {
+        "nvidia h100 80gb|asia-northeast1": 14.204998
+    },
+    {
+        "nvidia a100 80gb|europe-west3": 5.060938
+    },
+    {
+        "nvidia l4|us-west8": 0.5600402
+    },
+    {
+        "nvidia t4|europe-west4": 0.35
+    },
+    {
+        "nvidia tesla p4|us-south1": 0.708
+    },
+    {
+        "nvidia a100 40gb|asia-south1": 3.436863684
+    },
+    {
+        "nvidia l4|europe-west4": 0.588630286
+    },
+    {
+        "nvidia tesla p4|asia-southeast1": 0.65
+    },
+    {
+        "nvidia tesla p100|asia-northeast2": 1.6
+    },
+    {
+        "nvidia tesla p100|europe-west12": 1.8834
+    },
+    {
+        "nvidia t4|europe-west12": 0.4515
+    },
+    {
+        "nvidia a100 40gb|australia-southeast2": 4.16614936
+    },
+    {
+        "nvidia a100 80gb|europe-west6": 5.494991
+    },
+    {
+        "nvidia a100 80gb|us-central1": 3.92808
+    },
+    {
+        "nvidia a100 80gb|us-east1": 3.92808
+    },
+    {
+        "nvidia a100 80gb|us-west1": 3.92808
+    },
+    {
+        "nvidia l4|asia-east1": 0.6484706
+    },
+    {
+        "nvidia h100 80gb mega|asia-northeast1": 13.28412
+    },
+    {
+        "nvidia tesla p100|us-south1": 1.7227999999999999
+    },
+    {
+        "nvidia h100 80gb|asia-east1": 11.34343
+    },
+    {
+        "nvidia t4|southamerica-west1": 0.5005
+    },
+    {
+        "nvidia t4|me-west1": 0.385
+    },
+    {
+        "nvidia v100|us-south1": 2.9264
+    },
+    {
+        "nvidia tesla p4|europe-west4": 0.65
+    },
+    {
+        "nvidia h100 80gb|us-west3": 11.77643
+    },
+    {
+        "nvidia a100 40gb|europe-west6": 3.7721674419999998
+    },
+    {
+        "nvidia a100 40gb|europe-west4": 2.9339079999999997
+    },
+    {
+        "nvidia tesla p4|me-central1": 0.729
+    },
+    {
+        "nvidia h100 80gb|us-west4": 11.03385
+    },
+    {
+        "nvidia l4|asia-northeast2": 0.7192037
+    },
+    {
+        "nvidia t4|europe-southwest1": 0.413
+    },
+    {
+        "nvidia h100 80gb|us-south1": 11.55993
+    },
+    {
+        "nvidia v100|europe-west8": 2.8768000000000002
+    },
+    {
+        "nvidia tesla p100|europe-west9": 1.6936
+    },
+    {
+        "nvidia v100|australia-southeast2": 3.5216
+    },
+    {
+        "nvidia l4|asia-northeast1": 0.7192037
+    },
+    {
+        "nvidia a100 80gb|asia-east1": 4.548324
+    }
+]

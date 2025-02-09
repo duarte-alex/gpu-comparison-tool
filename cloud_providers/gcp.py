@@ -55,20 +55,25 @@ class GoogleCloudProvider(CloudProvider):
                 parts = description.split("in")
 
             gpu_name = parts[0].strip().lower()[:-4]  
-            if gpu_name == "nvidia tesla a100":
+
+            if gpu_name == "nvidia tesla a100 80gb":
+                gpu_name = "nvidia a100 80gb"
+            elif gpu_name == "nvidia tesla a100":
                 gpu_name = "nvidia a100 40gb"
             elif gpu_name == "nvidia tesla v100":
                 gpu_name = "nvidia v100"
+            elif gpu_name == "nvidia tesla t4":
+                gpu_name = "nvidia t4"
             elif gpu_name == "h200 141gb":
                 gpu_name = "nvidia h200 141gb"
+            elif "plus" in gpu_name:
+                gpu_name = gpu_name[:-5]
 
             return gpu_name
 
         return [
             {
-                "GPU": preprocess_description(sku["description"]),
-                "Region(s)": ", ".join(sku.get("serviceRegions", [])),
-                "Price (USD/hour)": (
+                f"{preprocess_description(sku['description'])}|{region}": (
                     float(
                         sku.get("pricingInfo", [])[0]
                         .get("pricingExpression", {})
@@ -88,6 +93,7 @@ class GoogleCloudProvider(CloudProvider):
             if sku.get("category", {}).get("resourceGroup", "") == "GPU"
             and sku["category"].get("usageType", []) == "OnDemand"
             and "Reserved" not in sku["description"]
+            for region in sku.get("serviceRegions", [])
         ]
 
 

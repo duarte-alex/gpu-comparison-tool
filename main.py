@@ -165,19 +165,26 @@ GCP_SERVICE_ACCOUNT_FILE = os.getenv("GCP_SERVICE_ACCOUNT_FILE")
 GCP = GoogleCloudProvider(GCP_PROJECT_ID, GCP_SERVICE_ACCOUNT_FILE)
 AWS = AWSCloudProvider(ZONES_AWS)
 
-# fetch available GPUs
-# gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
+# fetch available GPUs and their prices
+gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
 gcp_gpu_pricing = GCP.fetch_gpu_pricing()
 save_to_json("jsons/gcp_gpu_pricing.json", gcp_gpu_pricing)
-# save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
+gcp_gpu_pricing = {k: v for d in gcp_gpu_pricing for k, v in d.items()}
 
+# adding energy efficiency and carbon intensity
+for gpu in gcp_gpu_available:
+    Zone = gpu["Zone"].rsplit("-", 1)[0]
+    Description = gpu["Description"]
+    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[Zone] 
+    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[Description] 
+    gpu["Zone"] = Zone
+    try:
+        gpu["Price (USD/hour)"] = gcp_gpu_pricing[f"{Description}|{Zone}"]
+    except KeyError as e:
+        print(f"Key error for {Description}|{Zone}")
+        gpu["Price (USD/hour)"] = 999
 
-#for gpu in gcp_gpu_available:
-#    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
-#    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
-#    gpu["Zone"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]]
-    # gpu["Price (USD/hour)"] = gcp_gpu_pricing[(Zone, Description)]
-
+save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
 
 #aws_gpu_available = AWS.fetch_gpu_available()
 #for gpu in aws_gpu_available:
