@@ -1,0 +1,194 @@
+[
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA K80"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "AMD Radeon Pro V520"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "AMD Radeon Pro V520"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "AMD Radeon Pro V520"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A100"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA V100"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA H100"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA NVIDIA"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA V100"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA H200"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "AMD Radeon Pro V520"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA K80"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA L40S"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "AMD Radeon Pro V520"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA A10G"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA V100"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA K80"
+    },
+    {
+        "Zone": "us-east-2",
+        "Description": "NVIDIA T4"
+    }
+]

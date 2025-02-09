@@ -4,11 +4,26 @@ Multi-cloud GPU comparison tool that is transparent, modular, environmentally co
 
 ## Overview
 
-The gpu-comparison-tool brings together information from different cloud providers and aggreates different metrics.
+The gpu-comparison-tool brings together information from different cloud providers, pre-process it and aggreates it with different metrics.
 
-## Installation tutorial
+## Set up environment
 
-## Environment set up
+In order to use this code he recommend setting up the gpu-comparison-tool environment using Conda, follow these steps:
+
+- 1. Install Conda
+
+- 2. Clone the repository: 
+```
+git clone https://github.com/your-username/gpu-comparison-tool.git
+cd gpu-comparison-tool
+```
+
+- 3. Create the Conda environment and activate it:
+```
+conda env create -f environment.yml
+conda activate gpu-comparison-tool
+```
+
 
 ## Set up credentials
 
@@ -31,3 +46,18 @@ The GCP APIs that we will query are:
 
 
 ### AWS
+
+Enable your AWS account for all regions that you are going to query. By the default some regions are not activated. 
+
+Open the IAM Console:
+In the search bar, type IAM and select it from the results.
+
+Add a New User:
+
+In the IAM dashboard’s left-hand navigation, click Users, then click the Add users button.
+Enter a user name (for example, MultiRegionReadOnlyUser).
+Under Select AWS access type, check Programmatic access. This creates an access key and a secret access key for use with the CLI, SDKs, or APIs.
+Attach Existing Managed Policies:
+
+- export AWS_SECRET_ACCESS_KEY ="{secret_access_key}"
+- export AWS_ACCESS_KEY_ID="{access_key_id}"

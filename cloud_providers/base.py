@@ -17,11 +17,6 @@ class CloudProvider(ABC):
         pass
 
     @abstractmethod
-    def fetch_gpu(self):
-        """Agregate available gpus with their pricing data"""
-        pass
-
-    @abstractmethod
     def preprocess_gpu(self):
         """Helper method for preprocessing gpu data"""
         pass

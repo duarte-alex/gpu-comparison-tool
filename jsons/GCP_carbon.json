@@ -1,0 +1,162 @@
+[
+    {
+        "Zone": "africa-south1",
+        "Grid carbon intensity": 646
+    },
+    {
+        "Zone": "asia-east1",
+        "Grid carbon intensity": 451
+    },
+    {
+        "Zone": "asia-east2",
+        "Grid carbon intensity": 360
+    },
+    {
+        "Zone": "asia-northeast1",
+        "Grid carbon intensity": 459
+    },
+    {
+        "Zone": "asia-northeast2",
+        "Grid carbon intensity": 385
+    },
+    {
+        "Zone": "asia-northeast3",
+        "Grid carbon intensity": 378
+    },
+    {
+        "Zone": "asia-south1",
+        "Grid carbon intensity": 648
+    },
+    {
+        "Zone": "asia-south2",
+        "Grid carbon intensity": 529
+    },
+    {
+        "Zone": "asia-southeast1",
+        "Grid carbon intensity": 369
+    },
+    {
+        "Zone": "asia-southeast2",
+        "Grid carbon intensity": 580
+    },
+    {
+        "Zone": "australia-southeast1",
+        "Grid carbon intensity": 501
+    },
+    {
+        "Zone": "australia-southeast2",
+        "Grid carbon intensity": 456
+    },
+    {
+        "Zone": "europe-central2",
+        "Grid carbon intensity": 723
+    },
+    {
+        "Zone": "europe-north1",
+        "Grid carbon intensity": 46
+    },
+    {
+        "Zone": "europe-southwest1",
+        "Grid carbon intensity": 131
+    },
+    {
+        "Zone": "europe-west1",
+        "Grid carbon intensity": 122
+    },
+    {
+        "Zone": "europe-west2",
+        "Grid carbon intensity": 136
+    },
+    {
+        "Zone": "europe-west3",
+        "Grid carbon intensity": 345
+    },
+    {
+        "Zone": "europe-west4",
+        "Grid carbon intensity": 236
+    },
+    {
+        "Zone": "europe-west6",
+        "Grid carbon intensity": 59
+    },
+    {
+        "Zone": "europe-west8",
+        "Grid carbon intensity": 249
+    },
+    {
+        "Zone": "europe-west9",
+        "Grid carbon intensity": 34
+    },
+    {
+        "Zone": "europe-west10",
+        "Grid carbon intensity": 345
+    },
+    {
+        "Zone": "europe-west12",
+        "Grid carbon intensity": 249
+    },
+    {
+        "Zone": "me-central1",
+        "Grid carbon intensity": 575
+    },
+    {
+        "Zone": "me-central2",
+        "Grid carbon intensity": 569
+    },
+    {
+        "Zone": "me-west1",
+        "Grid carbon intensity": 463
+    },
+    {
+        "Zone": "northamerica-northeast1",
+        "Grid carbon intensity": 2
+    },
+    {
+        "Zone": "northamerica-northeast2",
+        "Grid carbon intensity": 47
+    },
+    {
+        "Zone": "southamerica-east1",
+        "Grid carbon intensity": 56
+    },
+    {
+        "Zone": "southamerica-west1",
+        "Grid carbon intensity": 138
+    },
+    {
+        "Zone": "us-central1",
+        "Grid carbon intensity": 430
+    },
+    {
+        "Zone": "us-east1",
+        "Grid carbon intensity": 560
+    },
+    {
+        "Zone": "us-east4",
+        "Grid carbon intensity": 322
+    },
+    {
+        "Zone": "us-east5",
+        "Grid carbon intensity": 322
+    },
+    {
+        "Zone": "us-south1",
+        "Grid carbon intensity": 321
+    },
+    {
+        "Zone": "us-west1",
+        "Grid carbon intensity": 94
+    },
+    {
+        "Zone": "us-west2",
+        "Grid carbon intensity": 198
+    },
+    {
+        "Zone": "us-west3",
+        "Grid carbon intensity": 588
+    }, 
+    {
+        "Zone": "us-west4",
+        "Grid carbon intensity": 373
+    }
+]

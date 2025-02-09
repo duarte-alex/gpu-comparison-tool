@@ -1,0 +1,43 @@
+{
+    "P100": {
+      "TDP (W)": 300,
+      "Peak FLOPS (DP)": "4.7 TFLOPS",
+      "Approx GFLOPS/W": 15.7
+    },
+    "V100": {
+      "TDP (W)": 300,
+      "Peak FLOPS (DP)": "7.8 TFLOPS",
+      "Approx GFLOPS/W": 26
+    },
+    "A100 40GB": {
+      "TDP (W)": 250,
+      "Peak FLOPS (DP)": "9.7 TFLOPS",
+      "Approx GFLOPS/W": 38.8
+    },
+    "A100 80GB": {
+      "TDP (W)": 400,
+      "Peak FLOPS (DP)": "19.5 TFLOPS",
+      "Approx GFLOPS/W": 48.8
+    },
+    "H100": {
+      "TDP (W)": 700,
+      "Peak FLOPS (DP)": "60 TFLOPS",
+      "Approx GFLOPS/W": 85.7
+    },
+    "T4": {
+      "TDP (W)": 70,
+      "Peak FLOPS (SP)": "8.1 TFLOPS",
+      "Approx GFLOPS/W": 116
+    },
+    "L4": {
+      "TDP (W)": 72,
+      "Peak FLOPS (SP)": "15.1 TFLOPS",
+      "Approx GFLOPS/W": 210
+    },
+    "P4": {
+      "TDP (W)": 75,
+      "Peak FLOPS (SP)": "5.5 TFLOPS",
+      "Approx GFLOPS/W": 73.3
+    }
+}
+  

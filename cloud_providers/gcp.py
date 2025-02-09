@@ -18,7 +18,6 @@ class GoogleCloudProvider(CloudProvider):
         credentials.refresh(Request())
         return credentials.token
 
-
     def fetch_gpu_available(self, zones):
         all_available_gpus = []
 
@@ -46,7 +45,6 @@ class GoogleCloudProvider(CloudProvider):
                 return []
 
         return all_available_gpus
-    
 
     def preprocess_gpu(self, data):
         def preprocess_description(description):
@@ -67,8 +65,6 @@ class GoogleCloudProvider(CloudProvider):
         return [
             {
                 "GPU": preprocess_description(sku["description"])[0],
-                "Location": preprocess_description(sku["description"])[1],
-                "Type": sku["category"].get("usageType", []),
                 "Region(s)": ", ".join(sku.get("serviceRegions", [])),
                 "Price (USD/hour)": sum([
                     float(pricing.get("unitPrice", {}).get("units", 0)) +
@@ -77,13 +73,13 @@ class GoogleCloudProvider(CloudProvider):
                 ])
             }
             for sku in data.get("skus", [])
-            if sku.get("category", {}).get("resourceGroup", "") == "GPU"
+            if sku.get("category", {}).get("resourceGroup", "") == "GPU" and sku["category"].get("usageType", []) == "OnDemand"
         ]
 
 
     def fetch_gpu_pricing(self):
         url = "https://cloudbilling.googleapis.com/v1/services/6F81-5844-456A/skus"
-        headers = {"Authorization": f"Bearer {self.oauth_token}"}
+        headers = {"Authorization": f"Bearer {self.oauth_token()}"}
         skus = []
         next_page_token = None
 
@@ -104,7 +100,3 @@ class GoogleCloudProvider(CloudProvider):
                 break
 
         return skus
-
-    def fetch_gpu(self):
-        """Agregate available gpus with their pricing data"""
-        pass

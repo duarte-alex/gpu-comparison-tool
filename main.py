@@ -1,18 +1,29 @@
 import os
-from cloud_providers import GoogleCloudProvider
+from cloud_providers import GoogleCloudProvider, AWSCloudProvider, AzureCloudProvider
 from dotenv import load_dotenv
 import json
 
+# https://gist.github.com/ausfestivus/04e55c7d80229069bf3bc75870630ec8
+ZONES_AZURE = [
+    "eastus", "eastus2", "southcentralus", "westus2",
+    "westus3", "australiaeast", "southeastasia",
+    "northeurope", "swedencentral", "uksouth",
+    "westeurope", "centralus", "southafricanorth",
+    "centralindia", "eastasia", "japaneast", "koreacentral",
+    "canadacentral", "francecentral", "germanywestcentral",
+    "italynorth", "norwayeast", "polandcentral", "spaincentral",
+    "switzerlandnorth", "mexicocentral", "uaenorth", "brazilsouth",
+    "israelcentral", "qatarcentral", "centralusstage", "eastusstage",
+    "eastus2stage", "northcentralusstage", "southcentralusstage",
+    "westusstage", "westus2stage", "brazilus", "eastusstg",
+    "northcentralus", "westus", "japanwest", "jioindiawest",
+    "centraluseuap", "eastus2euap", "westcentralus", "southafricawest",
+    "australiacentral", "australiacentral2", "australiasoutheast",
+    "jioindiacentral", "koreasouth", "southindia", "westindia",
+    "canadaeast", "francesouth", "germanynorth", "norwaywest",
+    "switzerlandwest", "ukwest", "uaecentral", "brazilsoutheast"
+]
 
-def save_to_json(filename, data):
-    with open(filename, "w") as json_file:
-        json.dump(data, json_file, indent=4)
-        print(f"Saved data to {filename}")
-
-
-load_dotenv()
-GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
-GCP_SERVICE_ACCOUNT_FILE = os.getenv("GCP_SERVICE_ACCOUNT_FILE")
 
 ZONES_AWS = [
     "us-east-2", "us-east-1", "us-west-1", "us-west-2",
@@ -20,9 +31,13 @@ ZONES_AWS = [
     "ap-southeast-5", "ap-southeast-4", "ap-south-1",
     "ap-northeast-3", "ap-northeast-2", "ap-southeast-1",
     "ap-southeast-2", "ap-southeast-7", "ap-northeast-1",
-    "ca-central-1", "ca-west-1", "eu-central-1"
+    "ca-central-1", "ca-west-1", "eu-central-1", "eu-west-1",
+    "eu-west-2", "eu-west-3", "eu-south-2",
+    "eu-north-1", "eu-central-2", "mx-central-1",
+    "me-south-1", "me-central-1", "sa-east-1", "us-gov-east-1",
 ]
 
+# https://cloud.google.com/compute/docs/regions-zones
 ZONES_GCP = [
     "us-central1-a", "us-central1-b", "us-central1-c", "us-central1-f",
 
@@ -83,8 +98,99 @@ ZONES_GCP = [
     "me-west1-a", "me-west1-b", "me-west1-c"
 ]
 
+# https://cloud.google.com/sustainability/region-carbon
+GCP_intensity = {
+    'africa-south1': 646,
+    'asia-east1': 451,
+    'asia-east2': 360,
+    'asia-northeast1': 459,
+    'asia-northeast2': 385,
+    'asia-northeast3': 378,
+    'asia-south1': 648,
+    'asia-south2': 529,
+    'asia-southeast1': 369,
+    'asia-southeast2': 580,
+    'australia-southeast1': 501,
+    'australia-southeast2': 456,
+    'europe-central2': 723,
+    'europe-north1': 46,
+    'europe-southwest1': 131,
+    'europe-west1': 122,
+    'europe-west2': 136,
+    'europe-west3': 345,
+    'europe-west4': 236,
+    'europe-west6': 59,
+    'europe-west8': 249,
+    'europe-west9': 34,
+    'europe-west10': 345,
+    'europe-west12': 249,
+    'me-central1': 575,
+    'me-central2': 569,
+    'me-west1': 463,
+    'northamerica-northeast1': 2,
+    'northamerica-northeast2': 47,
+    'southamerica-east1': 56,
+    'southamerica-west1': 138,
+    'us-central1': 430,
+    'us-east1': 560,
+    'us-east4': 322,
+    'us-east5': 322,
+    'us-south1': 321,
+    'us-west1': 94,
+    'us-west2': 198,
+    'us-west3': 588,
+    'us-west4': 373
+}
 
+GPU_efficiency = {
+    "NVIDIA Tesla P100": 15.7, "NVIDIA V100": 26, 
+    "NVIDIA A100 40GB": 38.8, "NVIDIA A100 80GB": 48.8, 
+    "NVIDIA H100 80GB": 85.7, "NVIDIA H100 80GB MEGA": 85.7,
+    "NVIDIA T4": 116, "NVIDIA L4": 210, "NVIDIA Tesla P4": 73.3,
+    "NVIDIA H200 141GB": 48.57
+}
+
+
+def save_to_json(filename, data):
+    with open(filename, "w") as json_file:
+        json.dump(data, json_file, indent=4)
+        print(f"Saved data to {filename}")
+
+# load environment variables
+load_dotenv()
+GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+GCP_SERVICE_ACCOUNT_FILE = os.getenv("GCP_SERVICE_ACCOUNT_FILE")
+
+# instanciate cloud providers
 GCP = GoogleCloudProvider(GCP_PROJECT_ID, GCP_SERVICE_ACCOUNT_FILE)
-gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
+AWS = AWSCloudProvider(ZONES_AWS)
 
-save_to_json("gcp_gpu_available.json", gcp_gpu_available)
+# fetch available GPUs
+gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
+gcp_gpu_pricing = GCP.fetch_gpu_pricing()
+save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_pricing)
+
+for gpu in gcp_gpu_available:
+    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
+    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
+    gpu["Zone"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]]
+    # gpu["Price (USD/hour)"] = gcp_gpu_pricing[(Zone, Description)]
+
+save_to_json("jsons/gcp_gpu_available.json", gcp_gpu_available)
+
+#aws_gpu_available = AWS.fetch_gpu_available()
+#for gpu in aws_gpu_available:
+#    gpu["Carbon intensity (gCO2eq/kWh)"] = GCP_intensity[gpu["Zone"].rsplit("-", 1)[0]] 
+#    gpu["Energy Efficiency [GFlops/Watts]"] = GPU_efficiency[gpu["Description"]] 
+#save_to_json("jsons/aws_gpu_available.json", aws_gpu_available)
+
+#gcp_gpu_pricing = GCP.fetch_gpu_pricing()
+#save_to_json("jsons/gcp_gpu_pricing.json", gcp_gpu_pricing)
+"""
+for device in list1:
+    description = device.get("Description")
+    if description in energy_efficiency_dict:
+        device["energy efficiency"] = energy_efficiency_dict[description]
+    else:
+        device["energy efficiency"] = None  # or handle missing values as needed
+"""
