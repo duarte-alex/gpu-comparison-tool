@@ -1,0 +1,167 @@
+{
+    "kind": "compute#acceleratorTypeList",
+    "id": "projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes",
+    "items": [
+        {
+            "kind": "compute#acceleratorType",
+            "id": "20011",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "ct3",
+            "description": "ct3",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/ct3",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "20012",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "ct3p",
+            "description": "ct3p",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/ct3p",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30005",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "ct5l",
+            "description": "ct5l",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/ct5l",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30006",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "ct5lp",
+            "description": "ct5lp",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/ct5lp",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30009",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "ct5p",
+            "description": "ct5p",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/ct5p",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10023",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-a100-80gb",
+            "description": "NVIDIA A100 80GB",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-a100-80gb",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30004",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-h100-80gb",
+            "description": "NVIDIA H100 80GB",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-h100-80gb",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30012",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-h100-mega-80gb",
+            "description": "NVIDIA H100 80GB MEGA",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-h100-mega-80gb",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "20009",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-l4",
+            "description": "NVIDIA L4",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-l4",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "30002",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-l4-vws",
+            "description": "NVIDIA L4 Virtual Workstation",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-l4-vws",
+            "maximumCardsPerInstance": 8
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10022",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-a100",
+            "description": "NVIDIA A100 40GB",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-a100",
+            "maximumCardsPerInstance": 16
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10010",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-p4",
+            "description": "NVIDIA Tesla P4",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-p4",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10012",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-p4-vws",
+            "description": "NVIDIA Tesla P4 Virtual Workstation",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-p4-vws",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10019",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-t4",
+            "description": "NVIDIA T4",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-t4",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10020",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-t4-vws",
+            "description": "NVIDIA Tesla T4 Virtual Workstation",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-t4-vws",
+            "maximumCardsPerInstance": 4
+        },
+        {
+            "kind": "compute#acceleratorType",
+            "id": "10008",
+            "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+            "name": "nvidia-tesla-v100",
+            "description": "NVIDIA V100",
+            "zone": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes/nvidia-tesla-v100",
+            "maximumCardsPerInstance": 8
+        }
+    ],
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/flowing-elf-446209-i4/zones/us-central1-a/acceleratorTypes"
+}
