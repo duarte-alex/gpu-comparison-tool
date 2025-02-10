@@ -18,7 +18,7 @@ class GoogleCloudProvider(CloudProvider):
         credentials.refresh(Request())
         return credentials.token
 
-    def fetch_gpu_available(self, zones):
+    def fetch_gpu_available(self, zones: list[str]):
         all_available_gpus = []
 
         for zone in zones:
@@ -27,6 +27,7 @@ class GoogleCloudProvider(CloudProvider):
 
             headers = {"Authorization": f"Bearer {self.oauth_token()}"}
             response = requests.get(url, headers=headers)
+            print(response.json())
 
             if response.json().get("nextPageToken") != None:
                 print("Page Token is needed for available GPUs")
