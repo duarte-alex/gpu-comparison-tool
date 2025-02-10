@@ -167,6 +167,7 @@ AWS = AWSCloudProvider(ZONES_AWS)
 
 # fetch available GPUs and their prices
 gcp_gpu_available = GCP.fetch_gpu_available(ZONES_GCP)
+
 aws_gpu_available = AWS.fetch_gpu_available()
 gcp_gpu_pricing = GCP.fetch_gpu_pricing()
 save_to_json("jsons/gcp_gpu_pricing.json", gcp_gpu_pricing)
