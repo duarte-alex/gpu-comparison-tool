@@ -10,7 +10,7 @@ from typing import Optional
 class GCPZoneNames(str, Enum):
     """All zones in Google Cloud Platform"""
 
-    US_CENTRAL1 = "us-central1"
+    US_CENTRAL1_A = "us-central1-a"
     US_CENTRAL1_B = "us-central1-b"
     US_CENTRAL1_C = "us-central1-c"
     US_CENTRAL1_F = "us-central1-f"
