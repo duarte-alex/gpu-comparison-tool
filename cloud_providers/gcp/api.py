@@ -38,6 +38,3 @@ async def fetch_all_available_gpus(credentials: Credentials, project_id: str) ->
         results = await asyncio.gather(*tasks)
 
     return [gpu for sublist in results for gpu in sublist]
-
-if __name__ == "__main__":
-    pass

@@ -13,5 +13,4 @@ class GoogleCloudProvider(CloudProvider):
 
     async def get_available_gpus(self) -> list[GPU]:
         return await fetch_all_available_gpus(
-            self._credentials, self._credentials.project_id
-        )
+            self._credentials, self._credentials.project_id)
